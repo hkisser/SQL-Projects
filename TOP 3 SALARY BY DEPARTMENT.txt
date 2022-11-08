@@ -1,0 +1,15 @@
+Select Department,
+Employee,
+salary
+FROM
+(
+SELECT d.name as Department,
+e.name as Employee,
+salary,
+dense_rank() over(partition by d.name order by salary desc) as rank_
+FROM
+Employee e
+LEFT JOIN Department d
+ON e.departmentId = d.id
+) a
+where rank_ <=3
