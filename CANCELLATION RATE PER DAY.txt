@@ -1,0 +1,34 @@
+SELECT Day,
+ROUND((cancelled_requests/total_requests),2) as 'Cancellation Rate'
+FROM 
+(
+SELECT request_at as Day,
+SUM(CASE WHEN banned = 'No' AND role in ('client','driver') THEN 1 ELSE 0 END) AS total_requests,
+SUM(CASE WHEN banned = 'No' AND role in ('client','driver') AND status LIKE 'cancelled%' THEN 1 ELSE 0 END) AS cancelled_requests
+FROM Trips t
+LEFT JOIN Users u
+ON t.client_id = u.users_id  
+WHERE request_at BETWEEN "2013-10-01" AND "2013-10-03"
+GROUP BY Day
+)s 
+
+THE ABOVE TOOK 150ms TO RUN
+
+
+WITH CTEs THE SAME LOGIC IMPLEMENTED TOOK 130ms TO RUN
+
+WITH TRIPS AS 
+(
+    SELECT request_at as Day,
+SUM(CASE WHEN banned = 'No' AND role in ('client','driver') THEN 1 ELSE 0 END) AS total_requests,
+SUM(CASE WHEN banned = 'No' AND role in ('client','driver') AND status LIKE 'cancelled%' THEN 1 ELSE 0 END) AS cancelled_requests
+FROM Trips t
+LEFT JOIN Users u
+ON t.client_id = u.users_id  
+WHERE request_at BETWEEN "2013-10-01" AND "2013-10-03"
+GROUP BY Day
+)
+    
+SELECT Day,
+ROUND((cancelled_requests/total_requests),2) as 'Cancellation Rate'
+FROM TRIPS
