@@ -1,10 +1,11 @@
-# SQL-Projects
-Have a peak into my SQL life :eyes:
+## SQL or Sequel :wink:
 
-Welcome back , as you already know I am Hillary :smile: and it is amazing to have you here
+### Task
+The task was to get the cancellation rate per day of passengers
 
-Few things to note,you are in the main branch...This branch basically is a roadmap to navigate my projects
+##Tech Stack
+- SQL
+- Critical Thinking :smile:
 
-1. The other branches host my SQL scripts used to perform tasks and the name of the branch is the name of the project
-
-
+## Functionality
+The task was assigned on Leet Code
