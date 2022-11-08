@@ -1,9 +1,10 @@
-## Task
-Investigate the top 3 salaries in a company based on the department
+# SQL-Projects
+Have a peak into my SQL life :eyes:
 
-## Tech Stack
-- SQL
-- Critical Thinking
+Welcome back , as you already know I am Hillary :smile: and it is amazing to have you here
 
-## Functionality
-This was a leet code challenge
+Few things to note,you are in the main branch...This branch basically is a roadmap to navigate my projects
+
+- The other branches host my SQL scripts used to perform tasks and the name of the branch is the name of the project
+
+
