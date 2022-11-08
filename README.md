@@ -7,5 +7,5 @@ The task was to get the cancellation rate per day of passengers
 - SQL
 - Critical Thinking :smile:
 
-## Functionality
-The task was assigned on Leet Code
+
+*The task was assigned on Leet Code*
