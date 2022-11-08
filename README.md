@@ -1,9 +1,9 @@
 # SQL-Projects
 Have a peak into my SQL life :eyes:
 
-Welcome back , as you already know I am Hillary :smile: and it is amazing to have you here
+I'm delighted to have you here,I'm Hillary
 
-Few things to note,you are in the main branch...This branch basically is a roadmap to navigate my projects
+A few things to keep in mind: you are in the main branch... This branch serves as a navigational guide for my projects.
 
 - The other branches host my SQL scripts used to perform tasks and the name of the branch is the name of the project
 
