@@ -6,6 +6,7 @@ To find the cancellation rate of requests with unbanned users (both client and d
 ## Tables
 
 ![Screenshot 2022-11-09 014429](https://user-images.githubusercontent.com/35902011/200716377-991b495e-3b7c-4aaf-85d1-4348552375fa.png)
+
 ![Screenshot 2022-11-09 014404](https://user-images.githubusercontent.com/35902011/200716382-a6f232f3-350c-47be-87c5-34abc3df365d.png)
 
 ##Tech Stack
@@ -14,5 +15,6 @@ To find the cancellation rate of requests with unbanned users (both client and d
 
 ## Results
 
+![Screenshot 2022-11-09 014809](https://user-images.githubusercontent.com/35902011/200716793-a49bfc95-1211-49be-a66d-6aec08f4cb8e.png)
 
 *The task was assigned on Leet Code*
