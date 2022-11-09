@@ -1,7 +1,9 @@
 ## SQL or Sequel :wink:
 
 ### Task
-The task was to get the cancellation rate per day of passengers
+To find the cancellation rate of requests with unbanned users (both client and driver must not be banned) each day between "2013-10-01" and "2013-10-03".
+
+## Tables
 
 ##Tech Stack
 - SQL
