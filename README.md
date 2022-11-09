@@ -1,5 +1,5 @@
 ## Task
-To investigate the top 3 salaries in a company by department
+To find employees who have the highest salary in each of the departments in a company
 
 ## Tech Stack
 - SQL
@@ -12,5 +12,6 @@ To investigate the top 3 salaries in a company by department
 
 ## Results
 
+![Screenshot 2022-11-09 045552](https://user-images.githubusercontent.com/35902011/200742212-31b5ac09-4de9-418c-96d4-dcf5412eadb0.png)
 
 *This was performed on Leet Code*
