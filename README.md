@@ -3,8 +3,14 @@ Have a peak into my SQL life :eyes:
 
 I'm delighted to have you here,I'm Hillary
 
-A few things to keep in mind: you are in the main branch... This branch serves as a navigational guide for my projects.
+Some things to keep in mind while you read
 
-- The other branches host my SQL scripts used to perform tasks and the name of the branch is the name of the project
+1. This branch, the main branch, is your road map for navigating my projects.
+
+2. The other branches house my other SQL projects, therefore the name of each branch basically represents the name of the project.
+
+3. Click on the downpointing arrow beside "main" at the top left underneath the "Issue" and "Pull Request" Tabs to have a look at my other projects
+
+That's all for now, see you later :wink:
 
 
